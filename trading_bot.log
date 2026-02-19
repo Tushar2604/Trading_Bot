@@ -1,0 +1,8 @@
+2026-02-20 00:23:09,033 - trading_bot - INFO - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1771527189033, 'signature': '294d864d0bcfef459560c2414a9f588516013c0b859f85492aaf032bc8699f53'}
+2026-02-20 00:23:09,043 - trading_bot - INFO - Response: {'orderId': 123456, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.0', 'avgPrice': '0.0'}
+2026-02-20 00:23:09,047 - trading_bot - INFO - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC', 'timestamp': 1771527189047, 'signature': '32b90cdaa04e2691a1a8bbe27ba59501a0dcfb36e10bd678209a387abc1bb0fc'}
+2026-02-20 00:23:09,055 - trading_bot - INFO - Response: {'orderId': 123456, 'symbol': 'BTCUSDT', 'status': 'NEW', 'executedQty': '0.0', 'avgPrice': '0.0'}
+2026-02-20 01:21:10,390 - trading_bot - INFO - Initialized MockBinanceClient
+2026-02-20 01:21:10,395 - trading_bot - INFO - [MOCK] Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-20 01:32:23,804 - trading_bot - INFO - Initialized MockBinanceClient
+2026-02-20 01:32:23,805 - trading_bot - INFO - [MOCK] Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
